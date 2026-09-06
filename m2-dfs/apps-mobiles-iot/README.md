@@ -29,7 +29,7 @@ Plus soutenance 20, soft skills 20, bonus approfondissement +5.
 ## Démarrer (jalon 0)
 
 ```bash
-git clone git@github.com:ThomasFT3721/Cours-MDS.git
+git clone https://github.com/ThomasFT3721/Cours-MDS.git
 cd Cours-MDS/m2-dfs/apps-mobiles-iot/starter_mobile_iot
 flutter pub get
 flutter run
