@@ -2,7 +2,7 @@
 
 4 rubriques, 15 minutes à écrire, validée par le formateur en séance. Elle est courte EXPRÈS : si une rubrique déborde, c'est que le projet est flou.
 
-### 1. L'équipe et le sujet
+### 1. Toi et le sujet
 
 - Membres :
 - Sujet (une phrase) :
@@ -12,7 +12,7 @@
 
 - Schéma en une ligne : `capteur(s) … → broker … → app … → historique …`
 - Capteurs (Wokwi ou téléphone, lesquels) :
-- Topics (sous votre préfixe d'équipe) :
+- Topics (sous ton préfixe) :
 - Stockage de l'historique (local, InfluxDB, autre) :
 
 ### 3. La répartition

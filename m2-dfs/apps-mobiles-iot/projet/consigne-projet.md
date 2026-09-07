@@ -4,17 +4,17 @@
 
 ### Le produit attendu
 
-En binôme (ou trinôme validé), vous livrez **une chaîne IoT complète qui est un produit, pas un TP** :
+En solo, tu livres **une chaîne IoT complète qui est un produit, pas un TP** :
 
 **capteur (Wokwi ou capteurs du téléphone) → broker MQTT → app Flutter → historique**
 
 Votre app des jalons J1 à J3 est le point de départ légitime : le projet réutilise tout ce qui existe. Repartir de zéro est autorisé mais jamais rentable.
 
-Broker du module : `mqtt.mds.developpe-mon-site.fr`. Chaque équipe publie sous SON préfixe : `mds/m2/equipe-XX/…` (XX = votre numéro, ex. `mds/m2/equipe-03/salon/temperature`). Vos identifiants arrivent en message privé : ils ne donnent accès qu'à votre préfixe. Le broker public HiveMQ reste autorisé pour bricoler, pas pour la démo.
+Broker du module : `mqtt.mds.developpe-mon-site.fr`. Chacun publie sous SON préfixe : `mds/m2/equipe-XX/…` (XX = ton numéro perso, le nom « equipe » est technique ; ex. `mds/m2/equipe-03/salon/temperature`). Tes identifiants arrivent en message privé : ils ne donnent accès qu'à ton préfixe. Le broker public HiveMQ reste autorisé pour bricoler, pas pour la démo.
 
 ### Le livrable : 5 pièces, un repo unique
 
-Tout vit dans le repo Git de l'équipe, **poussé avant le mercredi 14/10, 9h** (pas de dépôt en séance) :
+Tout vit dans TON repo Git, **poussé avant le mercredi 14/10, 9h** (pas de dépôt en séance) :
 
 1. **Code** : app Flutter + firmware (Wokwi), repo propre, **CI verte, APK signé en artefact**
 2. **`SECURITE.md`** : les 6 exigences ETSI, à jour de ce que vous avez VRAIMENT fait (la grille distribuée en S10 est le modèle)

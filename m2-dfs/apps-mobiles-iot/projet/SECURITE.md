@@ -1,6 +1,6 @@
 # SECURITE.md : notre chaîne face à ETSI EN 303 645
 
-Équipe :
+Élève :
 Chaîne auditée : capteur … → broker … → app …
 Date de la passe :
 
@@ -9,7 +9,7 @@ applicable) et UNE phrase de preuve ou de plan. Une case vide vaut un 🔴.
 
 ## 1. Pas de mot de passe par défaut universel
 
-- Le broker demande-t-il des identifiants propres à l'équipe ?
+- Le broker demande-t-il TES identifiants à toi ?
 - Un secret de test type `admin/admin` traîne-t-il quelque part ?
 - Statut :
 - Preuve ou plan :
@@ -39,7 +39,7 @@ applicable) et UNE phrase de preuve ou de plan. Une case vide vaut un 🔴.
 
 ## 5. Surface d'attaque minimisée
 
-- Vos topics sont-ils restreints à votre préfixe d'équipe (pas de
+- Tes topics sont-ils restreints à ton préfixe (pas de
   wildcard d'abonnement inutile) ?
 - L'app demande-t-elle UNIQUEMENT les permissions dont elle se sert ?
 - Des ports ou services inutiles sont-ils ouverts quelque part ?

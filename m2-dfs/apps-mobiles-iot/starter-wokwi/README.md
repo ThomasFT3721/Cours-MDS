@@ -10,7 +10,7 @@ est vrai : seul le silicium est simulé.
    (ton fork)
 2. Dans `sketch.ino`, change UNE ligne :
    ```cpp
-   const char* TOPIC_BASE = "m2/CHANGE-MOI"; // → m2/<ton-binome>, ex. m2/alice-bob
+   const char* TOPIC_BASE = "m2/CHANGE-MOI"; // → m2/<ton-prenom>, ex. m2/alice
    ```
 3. ▶️ Lance : le moniteur série doit afficher « WiFi… connecté » puis les
    publications
@@ -27,14 +27,14 @@ Trois lignes à changer (les identifiants arrivent en message privé Twik) :
 
 ```cpp
 const char* BROKER = "mqtt.mds.developpe-mon-site.fr";
-const char* UTILISATEUR = "equipe-XX";
+const char* UTILISATEUR = "equipe-XX"; // ton compte perso (le nom est technique)
 const char* MOT_DE_PASSE = "…";
 ```
 
 ## Les règles du firmware (les seules)
 
-1. **Tes topics restent sous ton préfixe** (`m2/<ton-binome>` puis, dès
-   S08, `mds/m2/equipe-XX` : le broker du module refuse le reste de
+1. **Tes topics restent sous ton préfixe** (`m2/<ton-prenom>` puis, dès
+   S08, `mds/m2/equipe-XX`, ton compte perso : le broker refuse le reste de
    toute façon)
 2. **Un message = une valeur numérique nue** (`22.5`, pas du JSON) : c'est
    ce que le pont d'historisation du module sait lire. Si tu publies autre
