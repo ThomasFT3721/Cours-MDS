@@ -17,10 +17,7 @@ class EcranAccueil extends StatelessWidget {
           children: [
             const Icon(Icons.rocket_launch, size: 64),
             const SizedBox(height: 16),
-            Text(
-              'Ça tourne.',
-              style: Theme.of(context).textTheme.headlineMedium,
-            ),
+            Text('Yooofdjghkudfhguio', style: Theme.of(context).textTheme.headlineMedium),
             const SizedBox(height: 8),
             const Text('Prochaine étape : modifie le titre de cet écran.'),
           ],

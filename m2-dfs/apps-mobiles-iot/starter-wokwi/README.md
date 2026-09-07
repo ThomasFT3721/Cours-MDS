@@ -31,6 +31,17 @@ const char* UTILISATEUR = "equipe-XX";
 const char* MOT_DE_PASSE = "…";
 ```
 
+## Les règles du firmware (les seules)
+
+1. **Tes topics restent sous ton préfixe** (`m2/<ton-binome>` puis, dès
+   S08, `mds/m2/equipe-XX` : le broker du module refuse le reste de
+   toute façon)
+2. **Un message = une valeur numérique nue** (`22.5`, pas du JSON) : c'est
+   ce que le pont d'historisation du module sait lire. Si tu publies autre
+   chose, ton historique de S09 restera vide
+3. Le reste est libre : capteurs, boutons, LED, plusieurs ESP32… étends
+   le starter autant que tu veux
+
 ## Les fichiers d'ici
 
 Si tu préfères recréer le projet à la main sur wokwi.com : `sketch.ino`
